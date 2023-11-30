@@ -124,7 +124,7 @@
 }
 .logo {
   width: 180px;
-  margin: -21px 15px 0 0;
+  margin: -12px 15px 0 0;
   cursor: pointer;
 }
 .search-bar {
@@ -180,8 +180,8 @@
 .cate-bar {
   position: absolute;
   top: 150px;
-  left: 50px;
-  padding: 3px 0 0 410px;
+  left: 0;
+  padding: 2px 0 0 450px;
   width: 100vw;
   background-color: #f5f5f5;
   height: 30px;
