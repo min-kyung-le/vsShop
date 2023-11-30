@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>검색창 예제</title>
+    <!-- 여기에 스타일 시트를 링크하세요 -->
+    <link th:href="@{/styles/main.css}" rel="stylesheet" />
+</head>
+<body>
+<header>
+    <!-- 검색창이 상단 중앙에 위치하도록 설정 -->
+    <div style="text-align: center; padding: 20px;">
+        <!-- 검색 폼 -->
+        <form th:action="@{/search}" method="get">
+            <input type="text" name="query" placeholder="검색어를 입력하세요" th:class="search-bar">
+            <button type="submit">검색</button>
+        </form>
+    </div>
+</header>
+
+<!-- 여기에 나머지 내용을 추가하세요 -->
+
+<!-- JavaScript 파일이 있다면 여기에 스크립트를 링크하세요 -->
+<!-- 예: <script src="your-script.js"></script> -->
+</body>
+</html>

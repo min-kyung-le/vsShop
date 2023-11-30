@@ -1,0 +1,17 @@
+/* 검색 */
+
+input::placeholder { color: #aaaaaa; }
+input:focus { outline: none; }
+
+.search-bar{
+    box-sizing: border-box;
+    position: absolute;
+    width: 577px;
+    height: 38px;
+    left: 393px;
+    top: 71px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #000000;
+}
+
